@@ -13,6 +13,10 @@ public class StudentSerVice {
 
     public boolean isSuccess(String username, String password) {
         Student student =studentRepository.findByUsernameAndPassword(username,password);
-        return student!=null;
+        return student != null;
+    }
+
+    public Student saveStudent(Student student) {
+        return studentRepository.save(student);
     }
 }

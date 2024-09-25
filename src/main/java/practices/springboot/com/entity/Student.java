@@ -20,4 +20,10 @@ public class Student {
 
     @Column
     private String password;
+
+    @Column
+    private String email;
+
+    @Column
+    private String phone;
 }
