@@ -7,5 +7,6 @@ import practices.springboot.com.entity.Student;
 @Repository
 public interface StudentRepository extends JpaRepository<Student,Long> {
     Student findByUsernameAndPassword(String username, String password);
+    Student findByEmail(String email);
 
 }

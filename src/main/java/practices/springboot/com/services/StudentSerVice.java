@@ -19,4 +19,8 @@ public class StudentSerVice {
     public Student saveStudent(Student student) {
         return studentRepository.save(student);
     }
+
+    public Student finByEmail(String email) {
+        return studentRepository.findByEmail(email);
+    }
 }
