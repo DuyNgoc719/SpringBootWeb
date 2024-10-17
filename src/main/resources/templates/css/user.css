@@ -1,0 +1,95 @@
+body {
+    background-color: #f5f7fa;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f8d7da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #721c24;
+}
+.profile-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+.profile-phone {
+    color: #6c757d;
+    font-size: 14px;
+}
+.profile-link {
+    color: #007bff;
+    text-decoration: none;
+}
+.profile-link:hover {
+    text-decoration: underline;
+}
+.card-body {
+    background-color: #fff3cd;
+    border-radius: 10px;
+    padding: 15px;
+}
+.card-body p {
+    margin: 0;
+    font-size: 14px;
+    color: #6c757d;
+}
+.card-body .btn {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.card-body .btn:hover {
+    background-color: #c82333;
+}
+.card-body .link {
+    color: #6f42c1;
+    text-decoration: none;
+}
+.card-body .link:hover {
+    text-decoration: underline;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 50px;
+    height: auto;
+}
+.sidebar {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.sidebar .nav-link {
+    color: black;
+    font-weight: 500;
+}
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+.content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.content h5 {
+    font-weight: bold;
+}
+.content .btn {
+    background-color: red;
+    color: white;
+}
